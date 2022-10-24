@@ -6,4 +6,10 @@ def main(a):
     Returns:
         True or False
     """
-    return
+    if len(a)%2==0:
+        c = True
+    if len(a)%2==1:
+        c = False  
+    return c
+
+print(main("hello"))    
